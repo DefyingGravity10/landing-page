@@ -26,6 +26,33 @@ ul {
     margin-right: 0;
 }
 
+.main-content {
+    display: flex;
+}
+
+#main-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.secondary-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.sign-up { 
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: 700;
+    border-style: none;
+    border-radius: 8px;
+    padding: 8px 32px;
+}
+
+.window {
+    max-width: 600px;
+}
+
 .content {
     background-color: #f9faf8;
 }
