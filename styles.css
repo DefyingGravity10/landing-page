@@ -26,6 +26,10 @@ ul {
     margin-right: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .main-content {
     display: flex;
 }
@@ -35,7 +39,7 @@ ul {
     font-weight: 900;
 }
 
-.secondary-text {
+.secondary-text, a {
     color: #e5e7eb;
     font-size: 18px;
 }
