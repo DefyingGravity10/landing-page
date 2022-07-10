@@ -37,7 +37,7 @@ a {
 .main-content {
     display: flex;
     gap: 40px;
-    margin-top: 100px;
+    margin: 100px 0px 150px 0px;
 }
 
 #main-text {
@@ -70,6 +70,34 @@ a {
 
 .content {
     background-color: #f9faf8;
+    padding: 60px;
+}
+
+.content-1, .content-2, .content-3 {
+    padding: 0px 200px;
+}
+
+.content-1 {
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0px 0px 40px 0px;
+}
+
+.img-container-2 {
+    display: flex;
+    gap: 60px;
+    justify-content: flex-end;
+}
+
+.paper {
+    max-width: 100%;
 }
 
 footer {
