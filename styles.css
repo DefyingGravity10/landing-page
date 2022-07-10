@@ -3,6 +3,10 @@ body {
     font-family: sans-serif;
 }
 
+p {
+    margin: 0;
+}
+
 header, .main-content, footer {
     color: #f9faf8;
     padding: 0px 200px;
@@ -32,6 +36,8 @@ a {
 
 .main-content {
     display: flex;
+    gap: 40px;
+    margin-top: 100px;
 }
 
 #main-text {
@@ -44,17 +50,22 @@ a {
     font-size: 18px;
 }
 
+.text-container, .img-container {
+    flex: 1 1 auto;
+}
+
 .sign-up { 
     background-color: #3882f6;
     color: #f9faf8;
     font-weight: 700;
     border-style: none;
-    border-radius: 8px;
+    border-radius: 7px;
     padding: 8px 32px;
+    margin: 12px 0px;
 }
 
 .window {
-    max-width: 600px;
+    max-width: 100%;
 }
 
 .content {
