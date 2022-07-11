@@ -103,6 +103,7 @@ h2 {
 
 .content-2 {
     background-color: #e7e5eb;
+    padding: 100px 220px;
 }
 
 quote {
@@ -110,12 +111,14 @@ quote {
     font-size: 36px;
     font-style: italic;
     font-weight: light;
-
+    text-align: justify;
 }
 
 .author {
+    font-size: 24px;
     font-weight: 700;
     text-align: right;
+    margin-top: 20px;
 }
 
 footer {
