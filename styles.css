@@ -55,12 +55,12 @@ a {
     flex: 1 1 auto;
 }
 
-.sign-up { 
+button { 
     background-color: #3882f6;
     color: #f9faf8;
     font-weight: 700;
     border-style: none;
-    border-radius: 7px;
+    border-radius: 6px;
     padding: 8px 32px;
     margin: 12px 0px;
 }
@@ -119,6 +119,26 @@ quote {
     font-weight: 700;
     text-align: right;
     margin-top: 20px;
+}
+
+.content-3 {
+    background-color: #3882f6;
+    color: white;
+    margin: 100px 220px 40px 220px;
+    padding: 50px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.sign-up-2 {
+    outline: 2px solid white;
 }
 
 footer {
