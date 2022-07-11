@@ -1,6 +1,7 @@
 body {
     background-color: #1f2937;
     font-family: sans-serif;
+    margin: 0;
 }
 
 p {
@@ -9,7 +10,7 @@ p {
 
 header, .main-content, footer {
     color: #f9faf8;
-    padding: 0px 200px;
+    padding: 0px 220px;
 }
 
 header {
@@ -70,11 +71,11 @@ a {
 
 .content {
     background-color: #f9faf8;
-    padding: 60px;
+    padding: 60px 0px;
 }
 
 .content-1, .content-2, .content-3 {
-    padding: 0px 200px;
+    padding: 0px 220px;
 }
 
 .content-1 {
